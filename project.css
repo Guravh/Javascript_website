@@ -1,0 +1,108 @@
+.content1 {
+    height: 75vh;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url("https://themewagon.github.io/hexashop/assets/images/left-banner-image.jpg");
+    background-size: 100% 100%;
+}
+
+.nav-link {
+    color: black;
+}
+
+.backimg {
+    height: 50vh;
+    background-image: url("https://themewagon.github.io/hexashop/assets/images/left-banner-image.jpg");
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.cont {
+    height: 37vh;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url("https://themewagon.github.io/hexashop/assets/images/baner-right-image-01.jpg");
+    background-size: 100% 100%;
+}
+
+.cont-2 {
+    height: 37vh;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url("https://themewagon.github.io/hexashop/assets/images/baner-right-image-02.jpg");
+    background-size: 100% 100%;
+}
+
+.cont-3 {
+    height: 37vh;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url("https://themewagon.github.io/hexashop/assets/images/baner-right-image-03.jpg");
+    background-size: 100% 100%;
+}
+
+.cont-4 {
+    height: 37vh;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url("https://themewagon.github.io/hexashop/assets/images/baner-right-image-04.jpg");
+    background-size: 100% 100%;
+}
+
+.inner {
+    visibility: hidden;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    height: 30vh;
+    width: 20%;
+    transition: 0.5s;
+}
+.one:hover {
+    .inner {
+        visibility: visible;
+        display: flex;
+        transition: 0.3;
+        background-color: rgba(42, 42, 42, .97);
+    }
+}
+.btn {
+    color: whitesmoke
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+.sec1
+{
+    height: 68vh;
+    width: 99%;
+}
+.sec2
+{
+    height: 68vh;
+    width: 99%;
+}
+@media screen and (max-width:800px) and (min-width:300px)
+{
+#carouselExample{
+    visibility: hidden;
+}
+#cr1
+{
+    background-image: url("https://themewagon.github.io/hexashop/assets/images/men-02.jpg");
+    background-size: 100% 100%;
+}
+#carouselExample2{
+    visibility: hidden;
+}
+#cr2
+{
+    background-image: url("https://themewagon.github.io/hexashop/assets/images/women-01.jpg");
+    background-size: 100% 100%;
+}
+}

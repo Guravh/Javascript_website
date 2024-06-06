@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="./cart.css">
+<title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg bg-body-dark bg-tertiary border-bottom">
+                <div class="container-fluid">
+                    <div class="tag"><i class="fa-brands fa-github fa-4x ms-5 mt-2"style="color: #7b7575;" ></i></div>
+                    <a class="navbar-brand" href="#"><strong style="color: black;" class="fs-3">Hexashop</strong><br><small
+                            style="color: black;">online shopping</small></a>
+                            <span class="fs-2" style="font-family: sans-serif; margin-left: 12%;"><i class="fa-solid fa-cart-shopping" style="color: rgb(92, 85, 85)"></i> Your Cart</span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">...</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav  ms-auto d-flex justify-content-around w-50 me-5">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" href="./project.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-bolder"
+                                    aria-expanded="false">
+                                    Features
+                                </a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fw-bolder" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Explore
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item border-bottom p-2" href="./about.html">About us</a></li>
+                                    <li><a class="dropdown-item border-bottom p-2" href="./contact.html">Contact us</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a id="Sign" class="nav-link fw-bolder" href="./sign.html">Sign in <i class="fa-solid fa-circle-user"></i></a>
+                            </li>
+                           
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+      <table class="shopping-cart">
+        <caption>Shopping Bag</caption>
+        <thead>
+          <tr class="d-flex justify-content-around">
+            <th>Product</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody id="cartTableBody">
+          <!-- Product #1 -->
+          <!-- <tr class="item justify-content-around">
+            <td id="image">
+            </td>
+            <td class="quantity">
+              <button class="plus-btn" type="button" name="button">
+                <span id="inc">+</span>
+              </button>
+              <input type="text" name="name" value="1">
+              <button class="minus-btn" type="button" name="button">
+                <span id="dec">-</span>
+              </button>
+            </td id="price">
+            
+          </tr> -->
+          </tbody>
+      </table>
+      <div class="row"><div class="total d-flex align-items: center;" style= "margin-top: -3%; height: 10%; width: 30%;">
+        <div class="fs-3 bg-light" style="margin-left: 30%; font-family: sans-serif; color: rgb(145, 112, 112);">Total =</div>
+        <div class="total-price" style="margin-top: -18px;"></div>
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./cart.js"></script>
+</body>
+</html>
